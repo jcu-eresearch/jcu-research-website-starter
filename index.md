@@ -2,9 +2,6 @@
 title: Home
 permalink: /
 ---
-
-Welcome to the project website. Replace this text with a short summary of the research project, its partners, and the audiences the website should support.
-
 > ## Research that is easy to share
 >
 > This JCU-themed website is designed for research project communications. Update pages in Markdown, adjust optional theme settings from `_config.yml`, and publish through GitHub Pages.
@@ -26,6 +23,6 @@ Welcome to the project website. Replace this text with a short summary of the re
 Add partner, funder, and collaborator logos here.
 
 [![James Cook University logo]({{ "/assets/images/jcu-logo-colour.svg" | relative_url }})](https://www.jcu.edu.au/)
-![Partner organisation logo]({{ "/assets/images/partner-placeholder.svg" | relative_url }})
+![Partner organisation logo]({{ "/assets/sample-images/partner-placeholder.svg" | relative_url }})
 {:.jcu-partner-logos}
 

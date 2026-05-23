@@ -15,6 +15,12 @@ The optional `theme_settings` block in `_config.yml` is commented out. Leave set
 
 The JCU logo is provided by the theme by default. To add a project logo, add an image to `assets/images/` in this site and uncomment `project_logo` in `_config.yml`.
 
+## Sample content
+
+This starter includes optional sample content under `sample-content/`, plus sample images in `assets/images/`. Use these pages to see how theme configuration changes affect Markdown formatting, content blocks, galleries, logos, tables, colours, and responsive layouts.
+
+When the project site is ready for real content, delete `sample-content/`, remove the `Sample Content Styles` section from `_data/navigation.yml`, and remove any unused sample images from `assets/images/`.
+
 ## Local preview
 
 Install dependencies:
@@ -46,4 +52,3 @@ For an organisation or user site at `https://USERNAME.github.io/`, set:
 url: "https://USERNAME.github.io"
 baseurl: ""
 ```
-

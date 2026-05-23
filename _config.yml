@@ -1,4 +1,4 @@
-title: "Research Project Website Starter"
+title: "Research project website starter"
 description: "A JCU-themed static website for research project communications."
 url: "https://jcu-eresearch.github.io"
 baseurl: "/jcu-research-website-starter"
@@ -26,7 +26,7 @@ theme_settings:
 #   show_breadcrumbs: true
    logo: "/assets/images/jcu-logo-mono.svg"
    logo_alt: "James Cook University"
-   project_logo: "/assets/images/project-logo.svg"
+   project_logo: "/assets/sample-images/project-logo.svg"
    project_logo_alt: "Project logo"
    sidebar_logo_tile_background: "transparent"
    sidebar_logo_tile_border_color: "transparent"
@@ -58,4 +58,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-
+  - SAMPLE_CONTENT.md
