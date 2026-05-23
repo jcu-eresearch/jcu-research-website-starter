@@ -22,16 +22,16 @@ defaults:
 # Optional theme overrides.
 # Leave these commented to use the theme defaults. Uncomment only the settings you want to change.
 #
-# theme_settings:
+theme_settings:
 #   show_breadcrumbs: true
-#   logo: "/assets/images/jcu-logo-mono.svg"
-#   logo_alt: "James Cook University"
-#   project_logo: "/assets/images/project-logo.svg"
-#   project_logo_alt: "Project logo"
-#   sidebar_logo_tile_background: "transparent"
-#   sidebar_logo_tile_border_color: "transparent"
-#   sidebar_project_logo_tile_background: "transparent"
-#   sidebar_project_logo_tile_border_color: "transparent"
+   logo: "/assets/images/jcu-logo-mono.svg"
+   logo_alt: "James Cook University"
+   project_logo: "/assets/images/project-logo.svg"
+   project_logo_alt: "Project logo"
+   sidebar_logo_tile_background: "transparent"
+   sidebar_logo_tile_border_color: "transparent"
+   sidebar_project_logo_tile_background: "transparent"
+   sidebar_project_logo_tile_border_color: "transparent"
 #   font_family: "Lato, Inter, Arial, Helvetica, sans-serif"
 #   heading_font_family: "Lato, Inter, Arial, Helvetica, sans-serif"
 #   primary_color: "#005EB8"
