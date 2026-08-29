@@ -15,6 +15,12 @@ The optional `theme_settings` block in `_config.yml` is commented out. Leave set
 
 The JCU logo is provided by the theme by default. To add a project logo, add an image to `assets/images/` in this site and uncomment `project_logo` in `_config.yml`.
 
+## Homepage layout
+
+The starter homepage uses `layout: full-width`, which is the theme layout for polished landing pages driven by front matter. Edit the `hero`, `achievements`, `carousel`, `landing_sections`, and `partner_organisations` groups in `index.md` to customise the homepage.
+
+Use `sample-content/pages/landing-page-blocks.md` as a reference for the available full-width page blocks and optional fields.
+
 ## Sample content
 
 This starter includes optional sample content under `sample-content/`, plus sample images in `assets/images/`. Use these pages to see how theme configuration changes affect Markdown formatting, content blocks, galleries, logos, tables, colours, and responsive layouts.

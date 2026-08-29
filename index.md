@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: full-width
 title: Home
 permalink: /
 hero:
@@ -120,6 +120,12 @@ landing_sections:
       Introduce the project team, collaborators, students, advisory groups, or community partners. Link to a people page if the project has detailed profiles.
     link_text: "Meet the team"
     link_url: "#"
+  - title: "Contact us"
+    eyebrow: "Be contactable"
+    content: |
+      Add a clear route for enquiries from partners, participants, media, or community members.
+    link_text: "Get in touch"
+    link_url: "/contact/"
 partner_organisations:
   eyebrow: "Partners"
   title: "Partner organisations"
@@ -135,11 +141,4 @@ partner_organisations:
       logo: "/assets/sample-images/partner-rainforest.svg"
     - name: "Reef research partner"
       logo: "/assets/sample-images/partner-reef.svg"
-contact_cta:
-  eyebrow: "Contact"
-  title: "Contact us"
-  content: |
-    Add a clear route for enquiries from partners, participants, media, or community members.
-  link_text: "Get in touch"
-  link_url: "/contact/"
 ---
