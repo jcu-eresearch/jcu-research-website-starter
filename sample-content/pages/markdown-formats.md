@@ -217,10 +217,10 @@ term 2
 
 ## Image
 
-![Biscuit]({{ "/assets/sample-images/my-cat_750x750.jpg" | relative_url }})
+![Researchers collecting water samples in a rainforest creek]({{ "/assets/sample-images/rainforest-fieldwork.jpg" | relative_url }})
 
 ````markdown
-![Biscuit]({{ "/assets/sample-images/my-cat_750x750.jpg" | relative_url }})
+![Researchers collecting water samples in a rainforest creek]({{ "/assets/sample-images/rainforest-fieldwork.jpg" | relative_url }})
 ````
 {: .jcu-alert .jcu-alert--note}
 

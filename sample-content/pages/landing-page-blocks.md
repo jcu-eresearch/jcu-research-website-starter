@@ -3,15 +3,15 @@ layout: full-width
 title: Landing page blocks
 permalink: /sample-content/landing-page-blocks/
 order: 5
-image: "/assets/sample-images/gallery-background.svg"
+image: "/assets/sample-images/tropical-research-landscape.jpg"
 summary: "Examples of each block and style available in the full-width page layout."
 content_separator: true
 hero:
   eyebrow: "Full-width layout sample"
   title: "Landing page blocks"
   lead: "Use this page to see each landing page section style and understand which front matter fields are optional."
-  image: "/assets/sample-images/gallery-background.svg"
-  image_alt: "Abstract image showing a research landscape"
+  image: "/assets/sample-images/tropical-research-landscape.jpg"
+  image_alt: "Researchers surveying a tropical rainforest coastline"
   separator: true
   actions:
     - label: "View sections"
@@ -38,14 +38,14 @@ carousel:
   title: "Carousel block"
   lead: "Use the carousel for fieldwork, project locations, lab work, community activities, or visual summaries. The carousel `eyebrow`, `title`, `lead`, `separator`, and slide `caption` fields are optional."
   items:
-    - image: "/assets/sample-images/gallery-background.svg"
-      image_alt: "Abstract image representing a research landscape"
+    - image: "/assets/sample-images/rainforest-fieldwork.jpg"
+      image_alt: "Researchers collecting water samples in a rainforest creek"
       caption: "Slide captions are optional."
-    - image: "/assets/sample-images/gallery-about.svg"
-      image_alt: "Abstract image representing project information"
+    - image: "/assets/sample-images/laboratory-analysis.jpg"
+      image_alt: "Researchers analysing environmental samples in a laboratory"
       caption: "Add as many slides as the page needs."
-    - image: "/assets/sample-images/gallery-contact.svg"
-      image_alt: "Abstract image representing collaboration"
+    - image: "/assets/sample-images/community-workshop.jpg"
+      image_alt: "Researchers and community partners discussing a map"
       caption: "Always include useful image alt text."
 landing_sections:
   - id: "standard-section"
@@ -61,8 +61,8 @@ landing_sections:
     link_url: "#"
   - title: "Section with image"
     eyebrow: "Media"
-    image: "/assets/sample-images/card-research-context.svg"
-    image_alt: "Abstract research context image"
+    image: "/assets/sample-images/tropical-research-landscape.jpg"
+    image_alt: "Researchers surveying a tropical rainforest coastline"
     content: |
       Add `image` to place media beside the text. The image sits on the right by default.
 
@@ -70,15 +70,15 @@ landing_sections:
   - title: "Image on the left"
     eyebrow: "Media"
     image_position: "left"
-    image: "/assets/sample-images/card-project-setting.svg"
-    image_alt: "Abstract project setting image"
+    image: "/assets/sample-images/rainforest-fieldwork.jpg"
+    image_alt: "Researchers collecting water samples in a rainforest creek"
     content: |
       This section uses `image_position: "left"`. The layout stacks cleanly on small screens.
   - title: "Feature band"
     eyebrow: "Style"
     style: "feature"
-    image: "/assets/sample-images/card-tree-kangaroo.svg"
-    image_alt: "Abstract feature image"
+    image: "/assets/sample-images/research-team.jpg"
+    image_alt: "A diverse research team at a tropical field station"
     content: |
       Use `style: "feature"` for a full-width pale background band. It uses `secondary_color` from `_config.yml`.
 
