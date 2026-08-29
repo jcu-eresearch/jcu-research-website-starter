@@ -1,28 +1,145 @@
 ---
+layout: landing
 title: Home
 permalink: /
+hero:
+  eyebrow: "JCU research project"
+  title: "Research with purpose, shared with clarity"
+  lead: "A professional landing page for communicating research aims, people, projects, impacts, news, and partnerships."
+  image: "/assets/sample-images/gallery-background.svg"
+  image_alt: "Abstract landscape representing connected research themes"
+  actions:
+    - label: "Explore our research"
+      url: "#our-research"
+    - label: "Contact us"
+      url: "/contact/"
+achievements:
+  eyebrow: "Achievements"
+  title: "Progress at a glance"
+  lead: "Use these tiles for project milestones, impact metrics, outputs, or key facts."
+  items:
+    - value: "12"
+      label: "Active studies"
+      text: "Research activities underway with communities, partners, and collaborators."
+    - value: "36"
+      label: "Project outputs"
+      text: "Reports, datasets, presentations, resources, and peer-reviewed publications."
+    - value: "8"
+      label: "Partner groups"
+      text: "Organisations contributing expertise, knowledge, data, and practical support."
+carousel:
+  eyebrow: "Gallery"
+  title: "Research in context"
+  lead: "Use the carousel for fieldwork images, project locations, lab work, community activities, or visual summaries."
+  items:
+    - image: "/assets/sample-images/gallery-background.svg"
+      image_alt: "Abstract background image"
+      caption: "Project context and research setting"
+    - image: "/assets/sample-images/gallery-about.svg"
+      image_alt: "Abstract image representing project information"
+      caption: "Research activities and project updates"
+    - image: "/assets/sample-images/gallery-contact.svg"
+      image_alt: "Abstract image representing contact and collaboration"
+      caption: "People, partnerships, and engagement"
+landing_sections:
+  - title: "Our research"
+    id: "our-research"
+    eyebrow: "Focus"
+    style: "feature"
+    image: "/assets/sample-images/card-research-context.svg"
+    image_alt: "Abstract research context image"
+    content: |
+      Introduce the central research problem, why it matters, and how the project responds. Keep this section short and outcome-focused so visitors quickly understand the purpose of the work.
+    link_text: "Read about the research"
+    link_url: "/project/"
+  - title: "In the media"
+    eyebrow: "Coverage"
+    cards:
+      - title: "Research interview"
+        text: "A short summary of a media story, radio interview, podcast episode, or public event."
+        link_text: "View story"
+        url: "#"
+      - title: "Community update"
+        text: "Highlight a news article or public communication that explains the project in plain language."
+        link_text: "View update"
+        url: "#"
+      - title: "Expert commentary"
+        text: "Link to commentary, explainers, or media releases involving the project team."
+        link_text: "Read commentary"
+        url: "#"
+  - title: "Our projects"
+    eyebrow: "Activities"
+    style: "feature"
+    cards:
+      - title: "Field research"
+        image: "/assets/sample-images/card-project-setting.svg"
+        image_alt: "Abstract project setting image"
+        text: "Describe a project stream, study site, work package, or research activity."
+        link_text: "View project"
+        url: "#"
+      - title: "Data and analysis"
+        image: "/assets/sample-images/card-tree-kangaroo.svg"
+        image_alt: "Abstract data and analysis image"
+        text: "Show how evidence is gathered, analysed, interpreted, and shared."
+        link_text: "View project"
+        url: "#"
+      - title: "Knowledge exchange"
+        image: "/assets/sample-images/card-green-turtle.svg"
+        image_alt: "Abstract knowledge exchange image"
+        text: "Highlight engagement, training, co-design, or translation activities."
+        link_text: "View project"
+        url: "#"
+  - title: "Latest news"
+    eyebrow: "Updates"
+    cards:
+      - title: "Project milestone"
+        text: "Add a short update about recent progress, events, outputs, or fieldwork."
+        link_text: "Read more"
+        url: "#"
+      - title: "New publication"
+        text: "Use this card for papers, reports, datasets, or other research outputs."
+        link_text: "Read more"
+        url: "#"
+      - title: "Upcoming activity"
+        text: "Promote workshops, presentations, community sessions, or conferences."
+        link_text: "Read more"
+        url: "#"
+  - title: "Impacts"
+    eyebrow: "Outcomes"
+    style: "highlight"
+    content: |
+      Explain the difference the research aims to make. This might include community benefit, environmental outcomes, policy influence, new methods, capability building, or improved decision-making.
+    link_text: "See project impacts"
+    link_url: "#"
+  - title: "Who we are"
+    eyebrow: "People"
+    image_position: "left"
+    image: "/assets/sample-images/gallery-contact.svg"
+    image_alt: "Abstract image representing the project team"
+    content: |
+      Introduce the project team, collaborators, students, advisory groups, or community partners. Link to a people page if the project has detailed profiles.
+    link_text: "Meet the team"
+    link_url: "#"
+partner_organisations:
+  eyebrow: "Partners"
+  title: "Partner organisations"
+  content: |
+    Recognise the organisations, funders, collaborators, and groups that make the project possible.
+  items:
+    - name: "James Cook University"
+      logo: "/assets/images/jcu-logo-colour.svg"
+      url: "https://www.jcu.edu.au/"
+    - name: "Partner organisation"
+      logo: "/assets/sample-images/partner-placeholder.svg"
+    - name: "Rainforest research partner"
+      logo: "/assets/sample-images/partner-rainforest.svg"
+    - name: "Reef research partner"
+      logo: "/assets/sample-images/partner-reef.svg"
+contact_cta:
+  eyebrow: "Contact"
+  title: "Contact us"
+  content: |
+    Add a clear route for enquiries from partners, participants, media, or community members.
+  link_text: "Get in touch"
+  link_url: "/contact/"
 ---
-> ## Research that is easy to share
->
-> This JCU-themed website is designed for research project communications. Update pages in Markdown, adjust optional theme settings from `_config.yml`, and publish through GitHub Pages.
-{:.jcu-block .jcu-block--coloured-bkgnd}
-
-> ## Project snapshot
->
-> ### Purpose
->
-> Share project aims, context, updates, outputs, and contact details in a format that is clear for partners, participants, and collaborators.
->
-> ### Built for maintenance
->
-> Add new pages through `_data/navigation.yml`, then write the page content in Markdown using reusable inline block styles.
-{:.jcu-block .jcu-block--card .jcu-block--accent}
-
-## Project partners
-
-Add partner, funder, and collaborator logos here.
-
-[![James Cook University logo]({{ "/assets/images/jcu-logo-colour.svg" | relative_url }})](https://www.jcu.edu.au/)
-![Partner organisation logo]({{ "/assets/sample-images/partner-placeholder.svg" | relative_url }})
-{:.jcu-partner-logos}
-

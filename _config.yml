@@ -48,6 +48,7 @@ theme_settings:
 #   border_color: "#D0D5DD"
 #   table_banded_rows: true
 #   block_separator_style: "none"
+#   landing_block_separators: false
 #   partner_logo_tile_background: "transparent"
 #   partner_logo_max_height: "6rem"
 #   partner_logo_max_items_per_row: 3
