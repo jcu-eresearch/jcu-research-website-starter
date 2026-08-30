@@ -17,7 +17,7 @@ The JCU logo is provided by the theme by default. To add a project logo, add an 
 
 ## Homepage layout
 
-The starter homepage uses `layout: full-width`, which is the theme layout for polished landing pages driven by front matter. Edit the `hero`, `achievements`, `carousel`, `landing_sections`, and `partner_organisations` groups in `index.md` to customise the homepage.
+The starter homepage uses `layout: full-width`, which is the theme layout for polished landing pages driven by front matter. Edit the `hero` and ordered `blocks` list in `index.md` to customise the homepage. Full-width blocks can use the `achievements`, `carousel`, `standard`, `feature`, `highlight`, and `partner-logos` types.
 
 Use `sample-content/pages/landing-page-blocks.md` as a reference for the available full-width page blocks and optional fields.
 
